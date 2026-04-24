@@ -23,6 +23,9 @@ int main()
 
     auto start_rec = high_resolution_clock::now();
     int rec_sum = a1.recursive_array(n, a);
+     int recMax = a1.recursive_max(n, a);
+    cout << "\nRecursive maximum = " << recMax << endl;
+
     auto end_rec = high_resolution_clock::now();
     auto duration_rec = duration_cast<nanoseconds>(end_rec - start_rec);
     cout << "Recursive sum = " << rec_sum << endl;

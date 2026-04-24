@@ -12,6 +12,8 @@ class array_sum
         void input_data(int n,int a[]);
         void iterative_array(int n,int a[]);
         int recursive_array(int n,int a[]);
+        int recursive_max(int n,int a[]);
+
 };
 
 #endif // ARRAY_SUM_H
